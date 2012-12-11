@@ -1,0 +1,22 @@
+//Liam Finley 04/12/12
+/*
+My first label
+
+
+*/
+function OnGUI () 
+{    
+  //Welcome to the new world
+	GUI.Label (Rect (10, 10, 100, 20), "Liam Finley!");
+	//Welcome to the maze!
+	GUI.Label (Rect (10, 20, 150, 20),  "Welcome to the maze!");
+	//Virus
+	GUI.Label (Rect (10, 30, 150, 20),  "Virus Uploading...!");
+	//Controls
+	GUI.Label (Rect (10, 40, 150, 20), "W = Forward");
+	GUI.Label (Rect (10, 50, 150, 20), "A = left");
+	GUI.Label (Rect (10, 60, 150, 20), "S = Back");
+	GUI.Label (Rect (10, 70, 150, 20), "D = Right");
+	GUI.Label (Rect (10, 80, 150, 20), "Space = Jump");
+	GUI.Label (Rect (10, 90, 250, 20), "Mouse Move = Camer View");
+}
