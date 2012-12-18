@@ -19,4 +19,6 @@ function OnGUI ()
 	GUI.Label (Rect (10, 70, 150, 20), "D = Right");
 	GUI.Label (Rect (10, 80, 150, 20), "Space = Jump");
 	GUI.Label (Rect (10, 90, 250, 20), "Mouse Move = Camer View");
+	GUI.Label (Rect (10, 100, 300, 20), "Pleae look at and enjoy the art");
+	GUI.Label (Rect (10, 110, 300, 20), "And Find your way through the maze");
 }
